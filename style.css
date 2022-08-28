@@ -1,0 +1,19 @@
+#phasmo-matrix {
+  margin: 12px;
+}
+
+#ghosts {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  max-height: 90vh;
+}
+
+.ghost {
+  width: 100%;
+  max-width: 400px;
+}
+
+.flex {
+  display: flex;
+}
