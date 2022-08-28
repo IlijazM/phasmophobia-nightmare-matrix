@@ -273,8 +273,10 @@ function buildGhostEl(ghost, evidences, abilities) {
 
   return `<div class="ghost card m-2 p-2">
     <div class="name">${ghost.name}</div>
-    <div class="evidences">
+    <div>
       ${ghost.evidences.map((evidence) => `<span class="badge badge-info m-1">${evidence}</span>`).join("")}
+      ${ghost.proAbility?.map((ability) => `<span class="badge badge-secondary m-1">${ability}</span>`).join("") ?? ""}
+      ${ghost.contraAbility?.map((ability) => `<span class="badge badge-secondary m-1">${ability}</span>`).join("") ?? ""}
     </div>
   </div>`;
 }
