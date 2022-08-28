@@ -1,4 +1,6 @@
-# phasmophobia-nightmare-matrix
+# Phasmophobia Nightmare Matrix
+
+> Try it out here: https://ilijazm.github.io/phasmophobia-nightmare-matrix/
 
 A phasmophobia matrix that also respects ghosts hiding their evidences as well as ghost abilities like early hunts and the ghost's speed
 
